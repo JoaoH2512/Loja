@@ -5,7 +5,7 @@
     <div class="container">
         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
             <a href="cadastrar.php" type="button" class="btn btn-danger">Cadastrar</a>
-            <a href="listar.php" type="button" class="btn btn-warning">Listrar</a>
+            <a href="listar.php" type="button" class="btn btn-warning">Listar</a>
         </div>
 
     </div>

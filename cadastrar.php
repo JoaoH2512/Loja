@@ -2,24 +2,24 @@
     include "cabecalho.php"
 ?>
     <div class="container">
-    <form>
+    <form action="inserir.php" method="POST">
         <div class="mb-3">
             <input type="text" name="produto" class="form-control" placeholder="Digite o nome do produto">
         </div>
         <div class="mb-3">
-            <input type="text" class="form-control" placeholder="Digite o preço do Produto">
+            <input type="text" name="preco" class="form-control" placeholder="Digite o preço do Produto">
         </div>
         <div class="mb-3">
-            <input type="text" class="form-control" placeholder="Digite a quantidade">
+            <input type="text" name="estoque" class="form-control" placeholder="Digite a quantidade">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
     </form>
     </div>
 
     <div class="container">
         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
             <a href="cadastrar.php" type="button" class="btn btn-danger">Cadastrar</a>
-            <a href="listar.php" type="button" class="btn btn-warning">Listrar</a>
+            <a href="listar.php" type="button" class="btn btn-warning">Listar</a>
         </div>
 
     </div>
